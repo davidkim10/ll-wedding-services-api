@@ -6,7 +6,7 @@ This WordPress plugin offers API endpoints to retrieve comprehensive information
 - **Wedding packages:** Defined as packages made from pricing tables found on the wedding pages
 - **Wedding page IDs:** [2020, 1765, 381]
 
-## Endpoints
+## Routes
 
 | Route Path                            | Method | Description                              |
 | ------------------------------------- | ------ | ---------------------------------------- |
@@ -14,7 +14,9 @@ This WordPress plugin offers API endpoints to retrieve comprehensive information
 | `/wp-json/custom/v1/services/wedding` | GET    | Fetches data for wedding services pages. |
 | `/wp-json/custom/v1/packages`         | GET    | Gets information about service packages. |
 
-### Endpoint: `/custom/v1/services`
+<div style="height: 50px;"></div>
+
+### Services: `/custom/v1/services`
 
 The endpoint `/custom/v1/services` returns JSON data providing information about the service pages. It mirrors the data structure of [WordPress' Pages API](https://developer.wordpress.org/rest-api/reference/pages/#schema), offering similar data:
 
@@ -49,7 +51,9 @@ Please refer to the [WordPress Pages API Schema Details](https://developer.wordp
 
 This endpoint aims to retrieve and present data in a manner consistent with the WordPress Pages API, ensuring compatibility and familiarity with standard WordPress data structures.
 
-### Endpoint: `/custom/v1/services/wedding`
+<div style="height: 50px;"></div>
+
+### Wedding: `/custom/v1/services/wedding`
 
 The endpoint `/v1/services/wedding` returns JSON data containing information about specific wedding service pages. The response structure includes an array of objects, each representing a distinct wedding service page. Each object comprises the following fields:
 
@@ -62,7 +66,9 @@ The endpoint `/v1/services/wedding` returns JSON data containing information abo
 
 The `content` field holds HTML markup showcasing the details of the wedding service. It encompasses text descriptions, pricing tables, and structured content. This HTML structure may consist of various elements and classes used for styling and structuring the content.
 
-### Endpoint: `/custom/v1/packages`
+<div style="height: 50px;"></div>
+
+### Packages: `/custom/v1/packages`
 
 The endpoint `/custom/v1/packages` returns JSON data providing information about service packages related to weddings. The response is an array of objects, each representing a distinct wedding package. Each object includes the following fields:
 
