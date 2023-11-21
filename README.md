@@ -14,7 +14,7 @@ This WordPress plugin offers API endpoints to retrieve comprehensive information
 | `/wp-json/custom/v1/services/wedding` | GET    | Fetches data for wedding services pages. |
 | `/wp-json/custom/v1/packages`         | GET    | Gets information about service packages. |
 
-<div style="height: 50px;"></div>
+<hr style="margin: 50px 0;" />
 
 ### Services: `/custom/v1/services`
 
@@ -51,7 +51,7 @@ Please refer to the [WordPress Pages API Schema Details](https://developer.wordp
 
 This endpoint aims to retrieve and present data in a manner consistent with the WordPress Pages API, ensuring compatibility and familiarity with standard WordPress data structures.
 
-<div style="height: 50px;"></div>
+<hr style="margin: 50px 0;" />
 
 ### Wedding: `/custom/v1/services/wedding`
 
@@ -66,7 +66,7 @@ The endpoint `/v1/services/wedding` returns JSON data containing information abo
 
 The `content` field holds HTML markup showcasing the details of the wedding service. It encompasses text descriptions, pricing tables, and structured content. This HTML structure may consist of various elements and classes used for styling and structuring the content.
 
-<div style="height: 50px;"></div>
+<hr style="margin: 50px 0;" />
 
 ### Packages: `/custom/v1/packages`
 
