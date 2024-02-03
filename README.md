@@ -12,7 +12,7 @@ This WordPress plugin offers API endpoints to retrieve comprehensive information
 | ------------------------------------- | ------ | ---------------------------------------- |
 | `/wp-json/custom/v1/services`         | GET    | Retrieves data for all services pages.   |
 | `/wp-json/custom/v1/services/wedding` | GET    | Fetches data for wedding services. |
-| `/wp-json/custom/v1/packages`         | GET    | Gets information about packages offerings (title, price, desc). |
+| `/wp-json/custom/v1/packages`         | GET    | Gets information about packages offerings. |
 
 <hr style="margin: 50px 0;" />
 
