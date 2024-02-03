@@ -11,8 +11,8 @@ This WordPress plugin offers API endpoints to retrieve comprehensive information
 | Route Path                            | Method | Description                              |
 | ------------------------------------- | ------ | ---------------------------------------- |
 | `/wp-json/custom/v1/services`         | GET    | Retrieves data for all services pages.   |
-| `/wp-json/custom/v1/services/wedding` | GET    | Fetches data for wedding services pages. |
-| `/wp-json/custom/v1/packages`         | GET    | Gets information about service packages. |
+| `/wp-json/custom/v1/services/wedding` | GET    | Fetches data for wedding services. |
+| `/wp-json/custom/v1/packages`         | GET    | Gets information about packages offerings (title, price, desc). |
 
 <hr style="margin: 50px 0;" />
 
