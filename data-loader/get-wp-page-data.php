@@ -40,7 +40,7 @@ class DataService {
 }
 
 
-// No longer used
+// @deprecated
 function getPageData() {
     $siteURL = get_site_url();
     $endpointURL = "$siteURL/wp-json/wp/v2/pages?per_page=50";
